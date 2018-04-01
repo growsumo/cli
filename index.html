@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>GrowSumo CLI</title>
+        <style media="screen">
+            html {
+                font-family: monospace;
+                background-color: black;
+                color: rgb(17, 230, 26);
+                padding: 0;
+            }
+            body {
+                margin: 0;
+            }
+            p {
+                margin-bottom: 2rem;
+            }
+
+            h1, h2, h3, h4, p {
+                padding: 0px 8px;
+            }
+
+            pre {
+                background-color: #111;
+                padding: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>GrowSumo CLI is now in v1.0!</h1>
+        <h2>The fastest blockchain backed, anonymous, easy to use, command line referral platform</h2>
+
+        <p>
+            We have completely decentralized the referral process by integrating directly with the GrowSumo chain.  A CLI interface intruments a gateway to the most durable distributed referral platform.
+        </p>
+
+        <p>
+            Here are some of the new features released with v1.0
+        </p>
+
+
+        <h3>## Connect your GTC wallet</strong><h3>
+        <i>This can take up to 12 days to sync with the current state of the chain</i>
+
+        <pre>$ gs wallet -n e3ndn92@5%d1ja22901m@.wallet</pre>
+
+
+        <h3>## Submit a lead's IP address</h4>
+        <pre>$ gs send -i 158.0.2.443</pre>
+
+
+        <h3>## List your referrals</h4>
+        <pre>
+$ gs referrals
+
+3F4C44F6021B0A  [approved]
+C0E7F2C3E3E32B  [pending]
+59C17E8E83A69E  [declined]
+25932C2325CAFD  [approved]</pre>
+
+
+<h3>## View a graph of your performance over time</h4>
+<pre>
+$ gs graph -t line -t1 03:31:2018:00:00:00 -t2 04:01:2018:23:59:59
+
+# wait about 3 hours and then
+# you will get a graph similar to the one below
+
+    100 |   _---__-____            /\___
+Dollars |__/           \____--__-_/
+(USD)   |
+      0 |________________________________
+        0        Time(milliseconds)  1.2E10
+</pre>
+
+    <p>
+        Release notes
+        <a href="https://www.youtube.com/watch?v=q6EoRBvdVPQ">https://github.com/growsumo/cli/releases</a><br>
+
+        Learn more about GrowSumo
+        <a href="https://growsumo.com">https://growsumo.com</a>
+    </p>
+
+    </body>
+</html>
